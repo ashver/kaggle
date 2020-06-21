@@ -31,11 +31,15 @@ The RMSLE is calculated as
 
 Where:
 
-ϵ is the RMSLE value (score)
-n is the total number of observations in the (public/private) data set,
-pi is your prediction of trip duration, and
-ai is the actual trip duration for i.
-log(x) is the natural logarithm of x
+. ϵ is the RMSLE value (score)
+
+. n is the total number of observations in the (public/private) data set,
+
+. pi is your prediction of trip duration, and
+
+. ai is the actual trip duration for i.
+
+. log(x) is the natural logarithm of x
 
 ## Acknowledgments
 
