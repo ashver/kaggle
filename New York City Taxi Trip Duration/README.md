@@ -27,7 +27,7 @@ Disclaimer: The decision was made to not remove dropoff coordinates from the dat
 The evaluation metric for this competition is Root Mean Squared Logarithmic Error.
 
 The RMSLE is calculated as
-<img src="https://render.githubusercontent.com/render/math?math=\epsilon = \sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i+1))^2 }">
+<img src="https://render.githubusercontent.com/render/math?math=\epsilon = \sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i + 1))^2 }">
 
 Where:
 
