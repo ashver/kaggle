@@ -25,9 +25,8 @@ Kaggle Data source: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-carde
 Deployement of machine learning model on production using Flask API(demo)
 
 ## Structure
-This project has four major parts :
+This project has three major parts :
 
 1. rf_model.plk - Random-forest model pickle file.
-2. app.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the index.html (HTML template) to allows user to enter variable-details and displays the predicted selling price based on the entered details.
+2. app.py - This contains Flask APIs that receives details through API calls, computes the precited value based on our model and returns it.
+3. templates - This folder contains the index.html (HTML template) to allows user to enter variable-details and displays the predicted selling price based on the entered details.
